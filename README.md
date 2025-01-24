@@ -27,7 +27,7 @@
 ---
 
 ## Project Structure
-
+```markdown
 conversation-analytics/
 ├── backend/
 │   ├── app/                 # FastAPI application code
@@ -40,6 +40,7 @@ conversation-analytics/
 │   ├── terraform/           # Terraform infrastructure code
 │   └── docker-compose.yml   # Local multi-container setup
 └── .github/workflows/       # CI/CD pipeline configuration
+```
 ---
 
 ## Getting Started
