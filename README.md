@@ -28,12 +28,18 @@
 
 ## Project Structure
 
-plaintext
-
-CopyEdit
-
-`conversation-analytics/ ├── backend/ │   ├── app/                 # FastAPI application code │   ├── tests/               # Backend test suite │   └── Dockerfile           # Docker configuration for backend ├── frontend/ │   ├── components/          # React components for the UI │   └── Dockerfile           # Docker configuration for frontend ├── infra/ │   ├── terraform/           # Terraform infrastructure code │   └── docker-compose.yml   # Local multi-container setup └── .github/workflows/       # CI/CD pipeline configuration`
-
+conversation-analytics/
+├── backend/
+│   ├── app/                 # FastAPI application code
+│   ├── tests/               # Backend test suite
+│   └── Dockerfile           # Docker configuration for backend
+├── frontend/
+│   ├── components/          # React components for the UI
+│   └── Dockerfile           # Docker configuration for frontend
+├── infra/
+│   ├── terraform/           # Terraform infrastructure code
+│   └── docker-compose.yml   # Local multi-container setup
+└── .github/workflows/       # CI/CD pipeline configuration
 ---
 
 ## Getting Started
